@@ -10,3 +10,4 @@ RUN echo "SESSION_SECRET=abc123" > .env
 RUN npm run build
 
 CMD npm start
+EXPOSE 8787
